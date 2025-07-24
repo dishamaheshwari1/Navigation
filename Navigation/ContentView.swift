@@ -16,10 +16,10 @@ struct ContentView: View {
                     Text("Click Me")
                 }
             }
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
-        .navigationTitle("Homee")
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarHidden(true)
     }
 }
 
