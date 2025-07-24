@@ -13,7 +13,13 @@ struct ContentView: View {
             VStack {
                 Text("This is the root view")
                 NavigationLink(destination: SecondView()) {
-                    Text("Click Me")
+                    Text("About Me")
+                }
+                NavigationLink(destination: ContactView()) {
+                    Text("Contact")
+                }
+                NavigationLink(destination: FavThingsView()) {
+                    Text("My Favorites")
                 }
             }
             .navigationTitle("Home")

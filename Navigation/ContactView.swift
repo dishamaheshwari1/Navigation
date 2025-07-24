@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  ContactView.swift
 //  Navigation
 //
 //  Created by Disha Maheshwari on 7/24/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct ContactView: View {
     var body: some View {
-        Text("My name is Disha Maheshwari")
+        Text("You can reach me at: myfakeemail@domain.com!")
     }
 }
 
 #Preview {
-    SecondView()
+    ContactView()
 }
